@@ -25,11 +25,7 @@ setup(
         "Programming Language :: Python",
     ],
     install_requires=[
-        "utm",
-        "SQLAlchemy>=0.6",
-        "BrokenPackage>=0.7,<1.0",
-    ],
-    dependency_links=[
-        "git+https://github.com/Turbo87/utm.git@v0.3.1#egg=utm-0.3.1",
+        "regex==2023.10.3",
+        "nltk==3.8.1",
     ],
 )
