@@ -1,6 +1,6 @@
 import string
 import regex as re
-import load_nltk
+import nldk.load_nltk
 
 from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer, WordNetLemmatizer

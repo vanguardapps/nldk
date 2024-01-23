@@ -1,6 +1,6 @@
 import argparse
 import regex as re
-from basic_object import get_basic_object
+from nldk.basic_object import get_basic_object
 
 
 class CLIMenu(object):

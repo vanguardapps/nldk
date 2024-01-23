@@ -1,8 +1,8 @@
-from nlp_content_cleaner import NLPContentCleaner
-from tmx import parse_tmx_file
-from nlp_content_cleaner import content_cleaner_languages_supported
-from all_languages import all_languages
-from write_csv_line import write_csv_line
+from nldk.nlp_content_cleaner import NLPContentCleaner
+from nldk.tmx import parse_tmx_file
+from nldk.nlp_content_cleaner import content_cleaner_languages_supported
+from nldk.all_languages import all_languages
+from nldk.write_csv_line import write_csv_line
 
 
 def tmx2csv(

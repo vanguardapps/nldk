@@ -1,13 +1,19 @@
-from nlp_content_cleaner import (
+#!/usr/bin/env python
+
+import sys
+
+print(sys.path)
+
+from nldk.nlp_content_cleaner import (
     clean_content_file,
     content_cleaner_languages_supported,
     get_lemmatize_pos_supported,
 )
-from cli_menu import CLIMenu
-from tmx2csv import tmx2csv, tmx2csv_lang_support
-from all_languages import all_languages
-from tsv2csv import tsv2csv
-from print_file_lines import print_file_lines
+from nldk.cli_menu import CLIMenu
+from nldk.tmx2csv import tmx2csv, tmx2csv_lang_support
+from nldk.all_languages import all_languages
+from nldk.tsv2csv import tsv2csv
+from nldk.print_file_lines import print_file_lines
 
 
 def cli_clean_content_file(

@@ -1,4 +1,4 @@
-from write_csv_line import write_csv_line
+from nldk.write_csv_line import write_csv_line
 
 
 def tsv2csv(in_path, out_path):
